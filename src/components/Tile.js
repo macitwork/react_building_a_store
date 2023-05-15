@@ -3,13 +3,13 @@ import React from 'react';
 function Tile({ img, altText, title, children}) {
     return (
 
-<section className="tile">
+<section className="Tile">
         <img src={img} alt={altText} />
           <h2>{title}</h2>
          <p>{children}</p>
-       <button onClick={onClick}>View</button>
-//</section>
-    );
+
+</section>
+    )
 }
 export default Tile
 
