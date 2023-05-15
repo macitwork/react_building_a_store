@@ -1,12 +1,10 @@
-
 import React from 'react'
-import './App.css';
 
+export function Button({buttonType, isDisable, clickHandler, children}) {
 
-
-
-
-Function buttom(props){
-    return (on Buttom({button type, isDisabled,clickHandler, children})
-
+    return (
+        <button>
+            type={buttonType} isDisabled={false} onClick={clickHandler} {children}
+        </button>
+)
 }
