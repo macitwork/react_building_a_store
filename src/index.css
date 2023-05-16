@@ -28,7 +28,8 @@ h2 {
 img {
   width: 100%;
 }
-
-main{
-  -moz-text-decoration-color: #BC4C2A;
+span{
+  background-color: #BC4C2A;
+  padding: inherit;
+  color: #F6F3EF;
 }

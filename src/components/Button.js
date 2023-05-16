@@ -1,10 +1,10 @@
 import React from 'react'
 
-export function Button({ type, isDisable, clickHandler, children}) {
+export function Button({ type, isDisable, handleClick, children}) {
 
     return (
         <button>
-            type={type} isDisabled={false} onClick={clickHandler} {children}
+            type={type} isDisabled={false} onClick={handleClick} {children}
         </button>
 )
 }

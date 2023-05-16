@@ -1,14 +1,13 @@
 import React from 'react';
 
-function Tile({ img, altText, title, children}) {
+function Tile({ img , imageAlt , title, children}) {
+
     return (
-
-<section className="Tile">
-        <img src={img} alt={altText} />
-          <h2>{title}</h2>
+        <section>
+            img = {img} alt={imageAlt}
+            <h2>{title}</h2>
          <p>{children}</p>
-
-</section>
+        </section>
     )
 }
 export default Tile

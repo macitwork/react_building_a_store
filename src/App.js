@@ -19,20 +19,32 @@ function App() {
       <nav>
         <button  type='button'
                 isDisabled={true}
-                clickHandler={() =>
+                 handleClick={() =>
                     console.log ('to the collection')}>to the collection</button>
                  <button type='button'
                   isDisabled={false}
-                  clickHandler={() => console.log ('shop all bags')}>shops all bags</button>
+                         handleClick={() => console.log ('shop all bags')}>shops all bags</button>
                                 <button  type='button'
                                     isDisabled={false}
-                                    clickHandler={() => console.log ('to the collection')}>pre order</button>
+                                         handleClick={() => console.log ('to the collection')}>pre order</button>
       </nav>
     <main>
-        <Product label="Best seller" img={bag1} title="The handy bag" price={400}/>
-        <Product label="Best seller" img={bag2} title="The stylish bag" price={250}/>
-        <Product label="New collection" img={bag3} title="The simple bag" price={300}/>
-        <Product label="New collection" img={bag4} title="The simple bag" price={150}/>
+        <Product label="Best seller"
+                 img={bag1}
+                    title ="The handy bag"
+                    price={400}/>
+        <Product label="Best seller"
+                 img={bag2}
+                 title="The stylish bag"
+                 price={250}/>
+        <Product label="New collection"
+                 img={bag3}
+                 title="The simple bag"
+                 price={300}/>
+       <Product label="New collection"
+                img={bag4}
+                title="The simple bag"
+                price={150}/>
     </main>
     <footer>
         <section>
