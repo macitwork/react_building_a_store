@@ -8,3 +8,4 @@ export function Button({ type, isDisable, handleClick, children}) {
         </button>
 )
 }
+export default Button
